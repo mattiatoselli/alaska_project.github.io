@@ -1,0 +1,28 @@
+.card .card-image img {
+	display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.card .card-image img:hover {
+    filter: grayscale(0.75);
+}
+.card-title {
+	font-family: 'Noto Sans JP', sans-serif;
+	border-top-right-radius: 49px;
+    border-bottom-right-radius: 49px;
+}
+.portfolio {
+	padding-top: 5vh;
+}
+.fa{
+	color: white;
+}
+
+body {
+	background-color: black;
+}
