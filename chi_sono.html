@@ -14,23 +14,26 @@
 
 	<body>
 			<!-- navbar -->
-			<nav class="black" style="min-height: 33vh;">
+			<nav class="black" style="padding-bottom: 15vh">
 				<div class="nav-wrapper">
-					<a href="index.html" class="brand-logo"><img src="./assets/images/logo.png"></a>
-					<a href="index.html" class="sidenav-trigger" data-target="mobile-nav">
+					<a href="#" class="brand-logo"><img src="./assets/images/logo.png" style="max-height: 15vh;"></a>
+					<a href="#" class="sidenav-trigger" data-target="mobile-nav">
 						<i class="material-icons">menu</i>
 					</a>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="#">Chi Sono</a></li>
+						<li><a href="chi_sono.html">Chi Sono</a></li>
 						<li><a href="#">Service</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
+
+
 		<!--mobile navbar -->
 		<ul class="sidenav" id="mobile-nav">
-			<li><a href="#">Chi Sono</a></li>
+			<li><a class="fa fa-home" href="index.html">&nbsp;Home</a></li>
+			<li><a class="fa fa-user" href="chi_sono.html">&nbsp;Chi Sono</a></li>
 			<li><a href="#">Service</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
@@ -40,13 +43,11 @@
 
 	    <div class="container">
 	    	<div class="row">
-			    <div class="col s12">
-			        <div class="card horizontal white-text" id="who1" style="background:#eb7077; opacity: 0.6; border-radius: 50px; font-size: 25px; display: none">
+			    <div class="col s6 offset-s4">
+			        <div class="card horizontal white-text" id="who1" style="background:black;display: none">
 			          	<div class="card-stacked">
 			            	<div class="card-content">
-			              		<p>
-			              			Ciao! Mi chiamo Rebeca Buruiana, in arte Alaska. Sono nata a Torino nel 1998, città in cui vivo tutt’ora. 
-			                  	</p>
+			     				<img src="./assets/images/logo.png">
 			            	</div>
 			          	</div>
 			        </div>
@@ -54,49 +55,13 @@
 			</div>
 			<div class="row">
 			    <div class="col s12">
-			        <div class="card horizontal white-text" id="who2" style="background:#eb7077; opacity: 0.7; border-radius: 50px; font-size: 25px; display: none">
+			        <div class="card horizontal black white-text" id="who2" style="display: none">
 			          	<div class="card-stacked">
-			            	<div class="card-content">
+			            	<div class="card-content center-align flow-text">
 			              		<p>
 			              			Dopo il diploma in architettura, presso il Primo Liceo Artistico di Torino ho deciso di intraprendere gli studi in Scienze della Comunicazione, questo percorso mi ha portata ad appassionarmi al mondo dell’illustrazione e della grafica.
-			                  	</p>
-			            	</div>
-			          	</div>
-			        </div>
-			    </div>   
-			</div>
-			<div class="row">
-			    <div class="col s12">
-			        <div class="card horizontal white-text who-am-i" id="who3" style="background:#eb7077; opacity: 0.8; border-radius: 50px; font-size: 25px; display: none">
-			          	<div class="card-stacked">
-			            	<div class="card-content">
-			              		<p>
 			              			Ad oggi sto riuscendo a trasformare la mia passione in lavoro, creando ritratti, illustrazioni e molto altro su commissione.
-			                  	</p>
-			            	</div>
-			          	</div>
-			        </div>
-			    </div>   
-			</div>
-			<div class="row">
-			    <div class="col s12">
-			        <div class="card horizontal white-text who-am-i" id="who4" style="background:#eb7077; opacity: 0.9; border-radius: 50px; font-size: 25px; display: none">
-			          	<div class="card-stacked">
-			            	<div class="card-content">
-			              		<p>
 			              			Sono felicissima di aver raggiunto questo traguardo, ma non mi faccio mancare altre passioni quali viaggi, sport e fotografia.
-			                  	</p>
-			            	</div>
-			          	</div>
-			        </div>
-			    </div>   
-			</div>
-			<div class="row">
-			    <div class="col s12">
-			        <div class="card horizontal white-text who-am-i" id="who5" style="background:#eb7077; border-radius: 50px; font-size: 25px; display: none">
-			          	<div class="card-stacked">
-			            	<div class="card-content">
-			              		<p>
 			              			Siete i benvenuti nel mio mondo, spero che i miei lavori vi ispirino e vi facciano sognare. 
 			                  	</p>
 			            	</div>
@@ -142,11 +107,8 @@
 		<script src="./assets/js/base_script.js" type="text/javascript"></script>
 		<script>
 			$(document).ready(function(){
-			    $("#who1").fadeIn(1000);
-			    $("#who2").fadeIn(1500);
-			    $("#who3").fadeIn(2000);
-			    $("#who4").fadeIn(2500);
-			    $("#who5").fadeIn(3000);
+			    $("#who1").fadeIn(3000);
+			    $("#who2").fadeIn(5000);
 			});
 		</script>
 	</body>
