@@ -16,13 +16,14 @@
 			<!-- navbar -->
 			<nav class="black" style="padding-bottom: 15vh">
 				<div class="nav-wrapper">
-					<a href="#" class="brand-logo"><img src="./assets/images/logo.png" style="max-height: 15vh;"></a>
-					<a href="#" class="sidenav-trigger" data-target="mobile-nav">
+					<a href="index.html" class="brand-logo hide-on-med-and-down"><img src="./assets/images/logo.png" style="max-height: 15vh;"></a>
+					<a href="index.html" class="sidenav-trigger" data-target="mobile-nav">
 						<i class="material-icons">menu</i>
 					</a>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="chi_sono.html">Chi Sono</a></li>
-						<li><a href="#">Service</a></li>
+						<li><a href="index.html">&nbsp;Home</a></li>
+						<li><a href="chi_sono.html">&nbsp;Chi Sono</a></li>
+						<li><a href="mostre.html">&nbsp;Mostre</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
@@ -34,7 +35,7 @@
 		<ul class="sidenav" id="mobile-nav">
 			<li><a class="fa fa-home" href="index.html">&nbsp;Home</a></li>
 			<li><a class="fa fa-user" href="chi_sono.html">&nbsp;Chi Sono</a></li>
-			<li><a href="#">Service</a></li>
+			<li><a class="fa fa-paint-brush" href="mostre.html">&nbsp;Service</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
@@ -43,15 +44,15 @@
 
 	    <div class="container">
 	    	<div class="row">
-			    <div class="col s6 offset-s4">
-			        <div class="card horizontal white-text" id="who1" style="background:black;display: none">
+			    <div class="col s12">
+			        <div class="card center-align" id="who1" style="background:black;display: none">
 			          	<div class="card-stacked">
 			            	<div class="card-content">
 			     				<img src="./assets/images/logo.png">
 			            	</div>
 			          	</div>
 			        </div>
-			    </div>   
+			    </div>
 			</div>
 			<div class="row">
 			    <div class="col s12">
@@ -64,6 +65,22 @@
 			              			Sono felicissima di aver raggiunto questo traguardo, ma non mi faccio mancare altre passioni quali viaggi, sport e fotografia.
 			              			Siete i benvenuti nel mio mondo, spero che i miei lavori vi ispirino e vi facciano sognare. 
 			                  	</p>
+			            	</div>
+			          	</div>
+			        </div>
+			    </div>   
+			</div>
+
+			<div class="row">
+			    <div class="col s12">
+			        <div class="card horizontal black white-text" id="who3" style="display: none;">
+			          	<div class="card-stacked">
+			            	<div class="card-content center-align flow-text">
+			            		<h3>Servizi</h3>
+			            		<p>Ritratti in digitale personalizzati</p>
+			            		<p>Dipinti su tela</p>
+			            		<p>Decorazioni su accessori e capi</p>
+			            		<p>Decorazioni su parete</p>
 			            	</div>
 			          	</div>
 			        </div>
@@ -109,6 +126,7 @@
 			$(document).ready(function(){
 			    $("#who1").fadeIn(3000);
 			    $("#who2").fadeIn(5000);
+			    $("#who3").fadeIn(7000);
 			});
 		</script>
 	</body>
