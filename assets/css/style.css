@@ -8,7 +8,7 @@
     bottom: 0;
     width: 100%;
 }
-.card .card-image img:hover {
+.grey-effect:hover {
     filter: grayscale(0.75);
 }
 .card-title {
@@ -16,13 +16,9 @@
 	border-top-right-radius: 49px;
     border-bottom-right-radius: 49px;
 }
-.portfolio {
-	padding-top: 5vh;
-}
 .fa{
 	color: white;
 }
-
 body {
 	background-color: black;
 }
